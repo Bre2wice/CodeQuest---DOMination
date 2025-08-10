@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: #1a1a1a;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 500px;
+  border: 2px solid #ffeb3b;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #ffeb3b;
+}
+
+.question-text {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.btn-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background: #333;
+  color: #f5f5f5;
+  border: 1px solid #555;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #4caf50;
+  color: white;
+}
+
+/* RIGHT AND WRONG ANSWER BUTTONS */
+.btn.correct {
+  background-color: #4caf50; /* Green for correct */
+  color: white;
+}
+
+.btn.wrong {
+  background-color: #f44336; /* Red for wrong */
+  color: white;
+}
+
+/* BATMAN & JOKER BUTTONS BLEND*/
+.next-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffeb3b;
+  color: #0d0d0d;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #8e24aa;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
